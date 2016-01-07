@@ -1,17 +1,17 @@
-<nav class="navigation">
-  <section class="container">
-
-    <a class="navigation-title" href="{{ site.baseurl }}/index.html">
-      <!-- <img class="img" src="img/logo.svg" height="30" alt="Milligram" title="Milligram"> -->
-      <h1 class="title">{{ site.title }}</h1>
-    </a>
-
-    <ul class="navigation-list float-right">
-      <li class="navigation-item">
-        <a class="navigation-link" href="http://qoyyuum.github.io/" data-popover>Home</a>
-        <a class="navigation-link" href="{{ site.baseurl }}/about" data-popover>About</a>
-      </li>
-    </ul>
-    
-  </section>
-</nav>
+      <header class="jekmdl-header mdl-layout__header mdl-layout__header--scroll mdl-color--grey-100 mdl-color-text--grey-800">
+        <div class="mdl-layout__header-row">
+          <span class="mdl-layout-title">{{ site.title }}</span>
+          <div class="mdl-layout-spacer"></div>
+          <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
+          <form action='{{ "/search.html" | prepend: site.baseurl }}' method='get' name='searchform'>
+            <label class="mdl-button mdl-js-button mdl-button--icon" for="search">
+              <i class="material-icons">search</i>
+            </label>
+            <div class="mdl-textfield__expandable-holder">
+              <input class="mdl-textfield__input" type="text" id="search" name="q">
+              <label class="mdl-textfield__label" for="search">Enter your query...</label>
+            </div>
+          </form>
+          </div>
+        </div>
+      </header>

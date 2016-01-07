@@ -4,15 +4,10 @@ title: About
 permalink: /about/
 ---
 
-Hi,
+This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
 
-My name is Abdul Qoyyuum Bin Haji Abdul Kadir. Born and raise in Brunei Darussalam. I also do Web Development. Front-end is my specialty but I am opting for Full-Stack Web Development.
-
-
-You can find the source code for the Millikyl theme at:
-{% include icon-github.html username="fareez-ahamed" %} /
-[jekyll-new](https://github.com/fareez-ahamed/millikyl)
+You can find the source code for the Jekyll new theme at:
+[jekyll-new](https://github.com/jglovier/jekyll-new)
 
 You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
 [jekyll](https://github.com/jekyll/jekyll)
