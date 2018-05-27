@@ -7,12 +7,16 @@
 
 # Site settings
 title: Qoyyuum's Blog
+email: 
 description: > # this means to ignore newlines until "baseurl:"
-  A blog about a Bruneian Web Developer exploring the Internet and sharing about it.
+  This blog is my personal view of what I find online. My personal experience is meant
+  for everyone to take as a lesson or pointers into whatever direction that you may
+  call *progress*. This blog serves as my notes, my thoughts, my opinions and my experience
+  while surfing the interwebs.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://blog.qoyyuum.me" # the base hostname & protocol for your site
-twitter_username: Qoyyuum
-github_username:  Qoyyuum
+url: "qoyyuum.github.io" # the base hostname & protocol for your site
+twitter_username: qoyyuum
+github_username:  qoyyuum
 
 # Build settings
 markdown: kramdown
