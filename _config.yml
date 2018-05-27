@@ -17,3 +17,4 @@ github_username:  Qoyyuum
 # Build settings
 markdown: kramdown
 highlighter: rouge
+theme: jekyll-theme-hacker
