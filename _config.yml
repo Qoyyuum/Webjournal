@@ -17,6 +17,7 @@ baseurl: /Webjournal # the subpath of your site, e.g. /blog
 url: "https://qoyyuum.github.io" # the base hostname & protocol for your site
 twitter_username: qoyyuum
 github_username:  qoyyuum
+paginate: 10
 
 # Build settings
 markdown: kramdown
