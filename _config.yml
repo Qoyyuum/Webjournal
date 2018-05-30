@@ -7,14 +7,14 @@
 
 # Site settings
 title: Qoyyuum's Blog
-email: 
+email: qoyyuum@mailinator.com 
 description: > # this means to ignore newlines until "baseurl:"
   This blog is my personal view of what I find online. My personal experience is meant
   for everyone to take as a lesson or pointers into whatever direction that you may
   call *progress*. This blog serves as my notes, my thoughts, my opinions and my experience
   while surfing the interwebs.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "qoyyuum.github.io" # the base hostname & protocol for your site
+baseurl: /Webjournal # the subpath of your site, e.g. /blog
+url: "https://qoyyuum.github.io" # the base hostname & protocol for your site
 twitter_username: qoyyuum
 github_username:  qoyyuum
 
