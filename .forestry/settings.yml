@@ -7,19 +7,17 @@ sections:
 - type: document
   path: _posts
   label: Post
-  match: "**/*"
-  read_only: false
 - type: jekyll-pages
   label: Pages
   create: all
 - type: jekyll-posts
   label: Posts
   create: all
-upload_dir: uploads
-public_path: "/uploads"
+upload_dir: wp-content/uploads
+public_path: "/wp-content/uploads"
 front_matter_path: ''
 use_front_matter_path: false
-file_template: ":filename:"
+file_template: ":filename:-:year::month::day:"
 build:
   preview_env:
   - JEKYLL_ENV=staging
